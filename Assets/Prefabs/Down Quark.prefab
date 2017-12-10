@@ -24,6 +24,10 @@ GameObject:
   - component: {fileID: 58866397771011336}
   - component: {fileID: 114178002271502292}
   - component: {fileID: 50979882039473304}
+  - component: {fileID: 114802503358322728}
+  - component: {fileID: 122365302486932418}
+  - component: {fileID: 114552814300634316}
+  - component: {fileID: 114721765219779802}
   m_Layer: 0
   m_Name: Down Quark
   m_TagString: Untagged
@@ -101,6 +105,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75864536a0df6864cb1715b6c57ec219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114552814300634316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229215624986204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ade47513e1fa848be8b0a929e87c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  components: 0100000000000000
+  result: {fileID: 1853053401045204, guid: 29e699e71b0ce834db584c4135240372, type: 2}
+  reactive: 1
+  achieved: 0
+--- !u!114 &114721765219779802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229215624986204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ffd77969e3cb040abfc95407faedbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114802503358322728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229215624986204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ade47513e1fa848be8b0a929e87c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  components: 0000000000000000
+  result: {fileID: 1079917496955272, guid: 6c847d52e9bc48d47aa1992ebf0010d1, type: 2}
+  reactive: 1
+  achieved: 0
+--- !u!122 &122365302486932418
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229215624986204}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 1
 --- !u!212 &212481558206095352
 SpriteRenderer:
   m_ObjectHideFlags: 1
