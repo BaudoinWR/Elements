@@ -3,12 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using Reactives;
 
 public class FormulaScript : MonoBehaviour {
     public Reactive[] components;
     public GameObject result;
     public IDictionary<GameObject, Reactive> colliding = new Dictionary<GameObject, Reactive>();
-    public Reactive reactive;
     Behaviour halo;
     float detachedBuffer = 0.1f;
     float timeDetached = -1;
@@ -20,7 +20,7 @@ public class FormulaScript : MonoBehaviour {
         {
             if (!colliding.ContainsKey(collision.gameObject))
             {
-                colliding.Add(collision.gameObject, collision.gameObject.GetComponent<FormulaScript>().reactive);
+                colliding.Add(collision.gameObject, collision.gameObject.GetComponent<ParticleScript>().reactive);
             }
         }
     }
@@ -86,9 +86,4 @@ public class FormulaScript : MonoBehaviour {
         return true;
     }
 
-    public enum Reactive
-    {
-        UpQuark,
-        DownQuark
-    }
 }
