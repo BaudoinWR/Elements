@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 338412895}
   - component: {fileID: 338412894}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: ParticlePlayArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -468,7 +468,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1780557082723304, guid: b573e7793df971e4f914d7cc869cffd4, type: 2}
       propertyPath: m_Name
-      value: Up Generator
+      value: UpGenerator
       objectReference: {fileID: 0}
     - target: {fileID: 212310186475952516, guid: b573e7793df971e4f914d7cc869cffd4,
         type: 2}

@@ -7,7 +7,7 @@ using Reactives;
 
 public class FormulaScript : MonoBehaviour {
     public Reactive[] components;
-    public GameObject result;
+    public Reactive result;
     public IDictionary<GameObject, Reactive> colliding = new Dictionary<GameObject, Reactive>();
     Behaviour halo;
     float detachedBuffer = 0.1f;
@@ -43,7 +43,7 @@ public class FormulaScript : MonoBehaviour {
         ICollection<GameObject> constituents;
         if (IsUsable(out constituents))
         {
-            FormulaActivationScript.AddFormula(result, gameObject, constituents);
+            FormulaActivationScript.AddFormula(result.Particle(), gameObject, constituents);
             timeDetached = -1;
             achieved = true;
         }
@@ -55,7 +55,7 @@ public class FormulaScript : MonoBehaviour {
             }
             else if (Time.time - timeDetached > detachedBuffer)
             {
-                FormulaActivationScript.Remove(result, gameObject);
+                FormulaActivationScript.Remove(result.Particle(), gameObject);
                 achieved = false;
             }
         }
