@@ -43,7 +43,7 @@ public class FormulaScript : MonoBehaviour {
         ICollection<GameObject> constituents;
         if (IsUsable(out constituents))
         {
-            FormulaActivationScript.AddFormula(result.Particle(), gameObject, constituents);
+            FormulaActivationScript.AddFormula(result.GetParticleObject(), gameObject, constituents);
             timeDetached = -1;
             achieved = true;
         }
@@ -55,7 +55,7 @@ public class FormulaScript : MonoBehaviour {
             }
             else if (Time.time - timeDetached > detachedBuffer)
             {
-                FormulaActivationScript.Remove(result.Particle(), gameObject);
+                FormulaActivationScript.Remove(result.GetParticleObject(), gameObject);
                 achieved = false;
             }
         }

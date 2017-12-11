@@ -49,7 +49,8 @@ public class ParticleScript : MonoBehaviour {
                 return;
             }
         }
-
+        reactive.Increment();
+        Debug.Log(reactive.Get());
         Destroy(gameObject);
     }
 

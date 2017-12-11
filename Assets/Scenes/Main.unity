@@ -595,9 +595,8 @@ Prefab:
     - target: {fileID: 114664106188243826, guid: b573e7793df971e4f914d7cc869cffd4,
         type: 2}
       propertyPath: particle
-      value: 
-      objectReference: {fileID: 1229215624986204, guid: 71e352be92140c24a8c9378d445978fb,
-        type: 2}
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114934032324716190, guid: b573e7793df971e4f914d7cc869cffd4,
         type: 2}
       propertyPath: m_FontData.m_FontSize
@@ -704,7 +703,7 @@ RectTransform:
   m_GameObject: {fileID: 1613564573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.022123894, y: 0.022123894, z: 0.022123894}
+  m_LocalScale: {x: 0.01873317, y: 0.01873317, z: 0.01873317}
   m_Children:
   - {fileID: 1706992612}
   m_Father: {fileID: 0}
@@ -837,7 +836,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1706992607}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -211, z: 0}
+  m_LocalPosition: {x: 0, y: -251.90625, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 513921225}
