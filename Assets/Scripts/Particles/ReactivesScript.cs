@@ -14,6 +14,7 @@ namespace Reactives {
             gameObjects.Add(Reactive.DownQuark, Resources.Load("Quarks/Down Quark") as GameObject);
             gameObjects.Add(Reactive.Proton, Resources.Load("ProtonNeutrons/Proton") as GameObject);
             gameObjects.Add(Reactive.Neutron, Resources.Load("ProtonNeutrons/Neutron") as GameObject);
+            gameObjects.Add(Reactive.Electron, Resources.Load("Electrons/Electron") as GameObject);
         }
         public static GameObject GetParticleObject(this Reactive reactive)
         {
@@ -49,6 +50,7 @@ namespace Reactives {
     {
         UpQuark,
         DownQuark,
+        Electron,
         Proton,
         Neutron
     }
