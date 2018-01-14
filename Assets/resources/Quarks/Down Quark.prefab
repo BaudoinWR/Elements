@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   components: 0100000000000000
-  result: 3
+  result: 4
   achieved: 0
 --- !u!114 &114721765219779802
 MonoBehaviour:
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   components: 0000000000000000
-  result: 2
+  result: 3
   achieved: 0
 --- !u!122 &122365302486932418
 Halo:

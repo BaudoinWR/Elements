@@ -9,9 +9,11 @@ public class HarvestScript : MonoBehaviour {
     //public Dictionary<Reactive, int> particles;
     public List<ParticlesProbability> particles;
     public int generateProbabilityPercent;
+    public Color moodColor;
     private int totalProbability;
     private System.Random randomizer = new System.Random();
     void Start () {
+        Camera.main.backgroundColor = moodColor;
         totalProbability = 1;
 		foreach (ParticlesProbability proba in particles)
         {
@@ -38,7 +40,6 @@ public class HarvestScript : MonoBehaviour {
                 }
             }
         }
-
     }
 
     [Serializable]

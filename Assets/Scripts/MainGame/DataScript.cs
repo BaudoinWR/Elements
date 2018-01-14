@@ -19,4 +19,5 @@ public class DataScript {
         result = result.Substring(0, result.Length - 2) + "}";
         return result;
     }
+
 }

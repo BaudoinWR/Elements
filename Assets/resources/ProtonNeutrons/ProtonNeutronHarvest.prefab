@@ -57,3 +57,4 @@ MonoBehaviour:
   - particle: 4
     probability: 2
   generateProbabilityPercent: 10
+  moodColor: {r: 0.85294116, g: 0.85294116, b: 0.85294116, a: 0}

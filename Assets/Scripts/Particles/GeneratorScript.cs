@@ -10,8 +10,8 @@ public class GeneratorScript : MonoBehaviour {
     private GameObject generated;
     private void Start()
     {
-        particle.Increment(available);
-        UpdateText();
+        //particle.Increment(available);
+        //UpdateText();
     }
 
     private void Update()

@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   components: 0100000001000000
-  result: 3
+  result: 4
   achieved: 0
 --- !u!114 &114386410753721700
 MonoBehaviour:
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   components: 0000000001000000
-  result: 2
+  result: 3
   achieved: 0
 --- !u!114 &114922923624528718
 MonoBehaviour:
