@@ -10,11 +10,11 @@ namespace Reactives {
         private static Dictionary<Reactive, GameObject> gameObjects = new Dictionary<Reactive, GameObject>();
         static Extensions()
         {
-            gameObjects.Add(Reactive.UpQuark, Resources.Load("Quarks/Up Quark") as GameObject);
-            gameObjects.Add(Reactive.DownQuark, Resources.Load("Quarks/Down Quark") as GameObject);
-            gameObjects.Add(Reactive.Proton, Resources.Load("ProtonNeutrons/Proton") as GameObject);
-            gameObjects.Add(Reactive.Neutron, Resources.Load("ProtonNeutrons/Neutron") as GameObject);
-            gameObjects.Add(Reactive.Electron, Resources.Load("Electrons/Electron") as GameObject);
+            gameObjects.Add(Reactive.UpQuark, Resources.Load("Elementary/Up Quark") as GameObject);
+            gameObjects.Add(Reactive.DownQuark, Resources.Load("Elementary/Down Quark") as GameObject);
+            gameObjects.Add(Reactive.Electron, Resources.Load("Elementary/Electron") as GameObject);
+            gameObjects.Add(Reactive.Proton, Resources.Load("Nucleons/Proton") as GameObject);
+            gameObjects.Add(Reactive.Neutron, Resources.Load("Nucleons/Neutron") as GameObject);
         }
         public static GameObject GetParticleObject(this Reactive reactive)
         {
